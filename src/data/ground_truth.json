@@ -1,0 +1,62 @@
+[
+    {
+        "prompt": "What is the capital city of France?",
+        "ground_truth": "The capital city of France is Paris."
+    },
+    {
+        "prompt": "Explain what a computer is in simple words.",
+        "ground_truth": "A computer is an electronic device that accepts data, processes it, stores information, and produces useful results."
+    },
+    {
+        "prompt": "Who wrote the book Romeo and Juliet?",
+        "ground_truth": "Romeo and Juliet was written by William Shakespeare."
+    },
+    {
+        "prompt": "What is the largest planet in our solar system?",
+        "ground_truth": "Jupiter is the largest planet in our solar system."
+    },
+    {
+        "prompt": "Classify the following text as Positive, Negative, or Neutral. Return only one label. Text: I really enjoyed this movie.",
+        "ground_truth": "Positive"
+    },
+    {
+        "prompt": "What are the three states of matter?",
+        "ground_truth": "The three common states of matter are solid, liquid, and gas."
+    },
+    {
+        "prompt": "Write a short paragraph about friendship.",
+        "ground_truth": "Friendship is a relationship based on trust, care, respect, and mutual support. Good friends help each other during difficult times and share happy moments together."
+    },
+    {
+        "prompt": "Translate 'Good morning' into Spanish.",
+        "ground_truth": "Buenos días."
+    },
+    {
+        "prompt": "What is the meaning of the word 'technology'?",
+        "ground_truth": "Technology refers to tools, machines, systems, and methods created and used to solve problems and make tasks easier."
+    },
+    {
+        "prompt": "What is the difference between RAM and storage?",
+        "ground_truth": "RAM is temporary memory used by a computer while programs are running, whereas storage such as an SSD or hard drive permanently stores data."
+    },
+    {
+        "prompt": "Explain what the internet is.",
+        "ground_truth": "The internet is a worldwide network of connected computers and devices that communicate and share information."
+    },
+    {
+        "prompt": "Write a simple JavaScript function to add two numbers.",
+        "ground_truth": "function add(a, b) { return a + b; }"
+    },
+    {
+        "prompt": "What is a database?",
+        "ground_truth": "A database is an organized collection of data that can be stored, managed, searched, and retrieved."
+    },
+    {
+        "prompt": "Explain what a web browser does.",
+        "ground_truth": "A web browser is software that allows users to access, retrieve, and display websites and web content from the internet."
+    },
+    {
+        "prompt": "What is the purpose of an operating system?",
+        "ground_truth": "An operating system manages computer hardware and software resources and provides an interface for users and applications to interact with the computer."
+    }
+]
