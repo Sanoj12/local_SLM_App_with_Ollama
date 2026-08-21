@@ -20,15 +20,13 @@ st.caption("Performance • Quality • Efficiency • Final Model Recommendatio
 
 #load data
 
+# Load data
 file_path = Path(__file__).parent / "src" / "data" / "evaluated_result.json"
 
 with open(file_path, "r", encoding="utf-8") as file:
-    data= json.load(file)
-
-
+    data = json.load(file)
 
 df = pd.DataFrame(data)
-
 
 
 
