@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import json
 import plotly.express as px
-
+from pathlib import Path
 ##page 
 
 st.set_page_config(
@@ -20,10 +20,11 @@ st.caption("Performance • Quality • Efficiency • Final Model Recommendatio
 
 #load data
 
-with open("C:/Users/sanoj/local_SLM_App_with_Ollama/src/data/evaluated_result.json", "r", encoding="utf-8") as file:
+file_path = Path(__file__).parent / "src" / "data" / "evaluated_result.json"
+
+with open(file_path, "r", encoding="utf-8") as file:
     data = json.load(file)
 
-df = pd.DataFrame(data)
 
 
 
